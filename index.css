@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#slot {
+    border-color: white;
+    border-radius: 5px;
+
+}
