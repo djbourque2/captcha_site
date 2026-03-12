@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>captcha</title>
 </head>
 <body>
     <body>
         <div id="slot">
             <!--img gif here-->
+            <img id="blink" src="img/blink_gif_proto.gif" onclick="this.style.display='none'">
+            <div id="text-entry"></div>
+            <div id="success"></div>
+            <div id="failure"></div>
         </div>
         <p>What's the password?</p>
     </body>
