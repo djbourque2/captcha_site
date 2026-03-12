@@ -11,11 +11,10 @@
 <body>
     <body>
         <div id="slot">
-            <!--img gif here-->
-            <img id="blink" src="img/blink_gif_proto.gif" onclick="this.style.display='none'">
-            <input id="text-entry" type="password" placeholder="Enter password">
-            <div id="success"></div>
-            <div id="failure"></div>
+            <img id="blink" src="img/blink_gif_proto.gif" onclick="this.style.display='none'"><!--blinking image is replaced by text entry-->
+            <input id="text-entry" type="password" placeholder="Enter password"><!--password entry, replaced by success or failure-->
+            <div id="success"></div><!--visible when password is correct-->
+            <div id="failure"></div><!--visible when password is wrong-->
         </div>
         <p>What's the password?</p>
     </body>
