@@ -1,5 +1,7 @@
-document.getElementById("text-entry").addEventListener("input", function () {
-  if (this.value === "password") {
-    window.location.href = "/your-target-page.html";
+function checkPassword() {
+  const input = document.getElementById("text-entry");
+
+  if (input.value === "password") {
+    window.location.href = "/correct.html";
   }
-});
+};

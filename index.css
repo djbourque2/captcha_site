@@ -36,6 +36,17 @@ img {
 
 #text-entry {
     display: none;
+    background-color: black;
+    color: white;
+}
+#text-entry::placeholder{
+    color: white;
+}
+
+#text-check {
+    display: none;
+    background-color: transparent;
+    color: white;
 }
 
 #success {

@@ -10,11 +10,10 @@
 </head>
 <body>
     <body>
-        <div id="slot" onclick="getElementById('text-entry').style.display='flex'">
+        <div id="slot" onclick="document.getElementById('blink').style.display='none'; document.getElementById('text-entry').style.display='flex'; document.getElementById('text-check').style.display='flex'">
             <img id="blink" src="img/blink_gif_v2.gif" onclick="this.style.display='none'"><!--blinking image is replaced by text entry-->
-            <input id="text-entry" type="password" placeholder="Enter password"><!--password entry, replaced by success or failure-->
-            <div id="success"></div><!--visible when password is correct-->
-            <div id="failure"></div><!--visible when password is wrong-->
+            <input id="text-entry" type="password" placeholder="Enter password"><!--password entry-->
+            <button id="text-check" onclick="checkPassword()">Enter</button>
         </div>
         <p>What's the password?</p>
     </body>
