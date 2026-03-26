@@ -1,9 +1,5 @@
-function compareInput() {
-    const input = document.getElementById('text-entry');
-    if (input == "password"){
-        return true;
-    }
-    else {
-        return false;
-    }
-}
+document.getElementById("text-entry").addEventListener("input", function () {
+  if (this.value === "password") {
+    window.location.href = "/your-target-page.html";
+  }
+});
